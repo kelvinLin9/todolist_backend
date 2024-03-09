@@ -1,4 +1,4 @@
-function errorHandel(res) {
+function errorHandle(res) {
   const headers = {
     'Access-Control-Allow-Headers': 'Content-Type, Authorization, Content-Length, X-Requested-With',
     'Access-Control-Allow-Origin': '*',
@@ -13,4 +13,4 @@ function errorHandel(res) {
   res.end();
 }
 
-module.exports = errorHandel;
+module.exports = errorHandle;
